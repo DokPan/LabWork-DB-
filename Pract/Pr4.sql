@@ -5,9 +5,9 @@ GO
 /* For security reasons the login is created disabled and with a random password. */
 /****** Object:  Login [ispp3407]    Script Date: 01.12.2025 13:44:00 ******/
 CREATE LOGIN [ispp3407] 
-WITH PASSWORD=N'Dnzz3w+dY0Hpe/gHDYlCCywZ/LmgOPMOPJiuaJ2hfDQ=', 
+WITH PASSWORD=N'', 
 DEFAULT_DATABASE=[ispp3407], 
-DEFAULT_LANGUAGE=[русский], 
+DEFAULT_LANGUAGE=[Г°ГіГ±Г±ГЄГЁГ©], 
 CHECK_EXPIRATION=OFF, 
 CHECK_POLICY=OFF
 GO
@@ -57,4 +57,5 @@ BEGIN
     EXEC('GRANT SELECT  TO [' + @login + '];')
 	SET @loginname = @loginname + 1;
 END
+
 
